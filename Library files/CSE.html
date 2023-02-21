@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Department</th>
+        <th scope="col">Name</th>
+        <th scope="col">Author</th>
+        <th scope="col">Available</th>
+    </tr>
+      <tr>
+        <td>CSE</td>
+        <td>programming with Java</td>
+        <td>E Balagurusamy</td>
+        <td>10</td>
+    </tr>
+
+    <tr>
+        <td>CSE</td>
+        <td>programming with Java</td>
+        <td>Sachin Malhotra Saurabh Chaudhari</td>
+        <td>10</td>
+    </tr>
+
+    <tr>
+        <td>CSE</td>
+        <td>Data Structure</td>
+        <td>S. Lipschutz</td>
+        <td>10</td>
+    </tr>
+    </thead>
+  </table>
+    <h2>Library Forms</h2>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="email" id="email" value="email"><br>
+      
+      <form action="/action_page.php">
+        <label for="cars">Choose a Book:</label>
+        <select id="Book" name="Book">
+          <option value="volvo">Modern Digital Electronic</option>
+          <option value="saab">8052 Microprecessor</option>
+          <option value="fiat">Econpmics</option>
+          <option value="audi">Electronic Device and Machine</option>
+          <option value="fiat">Null</option>
+        </select>
+        <input type="submit">
+      </form><br>
+      <input type="submit" value="Submit">
+    </form> 
+    
+    <p>If you click the "Submit" button, the form-data will be sent to the librarian".</p>
+</body>
+</html>

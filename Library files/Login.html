@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <body background="C:\Users\hp\Pictures\Library files\WhatsApp Image 2022-11-22 at 11.07.44 PM.jpeg"></body>
+
+    <div class="main-container">
+        <h1>Management System</h1>
+        <div class="login-container">
+          <h1>Login</h1>
+          <div class="display"></div>
+          <input type="text" placeholder="Username">
+          <input type="password" placeholder="Password">
+          <p>Forgot Password? <a href="#">Request to reset.</a></p>
+          <input type="button" value="Let me in">
+        </div>
+      </div>
+
+      <style>
+       
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  
+}
+.main-container h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.main-container p {
+  margin: 30px 0px;
+  padding: 0px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-align:center;
+}
+.login-container {
+  width: 300px;
+  height: 400px;
+  display: grid;
+  grid-columns-template: 1fr;
+  place-items: center;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.44) 100%);
+  box-shadow: 9px 9px 10px rgba(38, 32, 102, 0.63);
+border-radius: 15px;
+}
+.login-container h1 {
+  padding: 0px;
+  color: #6266B3;
+  margin: 0px;
+  font-family: Lobster;
+  font-size: 38px;
+  text-decoration: underline;
+}
+.login-container input {
+  border: none;
+  line-height: 25px;
+  border-bottom: solid 2px;
+  border-image-source: linear-gradient(0deg, rgba(172, 69, 110, 0.8832), rgba(172, 69, 110, 0));
+  border-image-slice: 1;
+  width: 60%;
+  background:none;
+  font-size: 1.2em;
+  color: rgba(121, 86, 153, 0.929132);
+  font-style: italic;
+}
+.login-container p {
+  margin: 0px;
+  pading: 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(121, 86, 153, 0.929132);
+}
+.login-container p a {
+  text-decoration: none;
+  color: rgba(121, 86, 153, 0.929132);
+}
+.login-container input[type="button"]{
+  border: none;
+  margin:0px;
+  margin-bottom: 30px;
+  padding:5px;
+  height: 40px;
+  width: 60%;
+  color: #ffffff;
+  background: linear-gradient(103.24deg, #2A71DB 11.7%, #A345AC 78.9%);
+box-shadow: 5px 5px 6px rgba(122, 122, 122, 0.84);
+  border-radius: 5px;
+}
+.login-container input[type="button"]:hover {
+  animation: animate 1s ease-in;
+}
+@keyframes animate {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 200px;
+  }
+}
+
+      </style>
+</body>
+</html>
